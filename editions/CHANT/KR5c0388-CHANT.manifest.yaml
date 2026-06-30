@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR5c0388/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR5c0388/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 老子甲本卷後古佚書
+  identifiers:
+    krp: KR5c0388
+  tags:
+    tls-internal: swl
+    kr-categories: KR5c
+  source:
+    repository: tls-texts
+    path: data/tls/KR5c0388.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR5c0388_001-CHANT.yaml, hash: 'sha256:75c29e06b958fc0e5b6852335c5b821372f55b2bddc1a34b96d98ea28c986220'}
+  - {seq: 2, filename: KR5c0388_002-CHANT.yaml, hash: 'sha256:130b99463e9f3214e6564447323ef91a0d88938d174cb9af81aded9edfb55e63'}
+  - {seq: 3, filename: KR5c0388_003-CHANT.yaml, hash: 'sha256:c8bdc81652a02a4c5cd0c92a0ddf7505b8604da5a89b57cfd4a55cdedc934091'}
+  - {seq: 4, filename: KR5c0388_004-CHANT.yaml, hash: 'sha256:fc919e44515523020d55ae2eddd250f63c5420e17c7ca7b1b6f5a8e820d1e999'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0388_001-CHANT.markers.yaml, hash: 'sha256:bca5d534f9fbbe9cc93483e4df67c6bac90189302191f5ecc625328551057fc6'}
+  - {seq: 2, role: markers, filename: assets/KR5c0388_002-CHANT.markers.yaml, hash: 'sha256:3107fa3c0b702b58dc9e19288e9da700a2125182817c90481a1ad6b24ea7f6b7'}
+  - {seq: 3, role: markers, filename: assets/KR5c0388_003-CHANT.markers.yaml, hash: 'sha256:34f89a215939322680c0929d261431a77c8bb25cfe49c2847da3f02f52460b03'}
+  - {seq: 4, role: markers, filename: assets/KR5c0388_004-CHANT.markers.yaml, hash: 'sha256:0e6706fbe1de9a75a419d7fe7f4241f1e7fbf3086f679d1cd69f8e8f0b4dd49e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0388_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4956
+  label: 馬王堆漢墓帛書老子甲本卷後古佚書五行
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0388_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1454
+  label: 馬王堆漢墓帛書老子甲本卷後古佚書九主
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR5c0388_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 1293
+  label: 馬王堆漢墓帛書老子甲本卷後古佚書明君
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR5c0388_CHANT_004-1a.1-h
+    span:
+    - body
+    - 0
+    - 280
+  label: 馬王堆漢墓帛書老子甲本卷後古佚書德聖
+  type: section
+  level: 1
+hash: sha256:c253d8bb0248eda96deb524b350e5778cbbb250e1ceca4b34deeae4f7f930eaf
