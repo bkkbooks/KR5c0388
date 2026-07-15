@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5c0388/v1
 canonical_location: https://kanripo.org/bkk/KR5c0388/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 老子甲本卷後古佚書
   identifiers:
@@ -18,15 +18,15 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR5c0388_001.yaml, hash: 'sha256:75c29e06b958fc0e5b6852335c5b821372f55b2bddc1a34b96d98ea28c986220'}
-  - {seq: 2, filename: KR5c0388_002.yaml, hash: 'sha256:130b99463e9f3214e6564447323ef91a0d88938d174cb9af81aded9edfb55e63'}
-  - {seq: 3, filename: KR5c0388_003.yaml, hash: 'sha256:c8bdc81652a02a4c5cd0c92a0ddf7505b8604da5a89b57cfd4a55cdedc934091'}
-  - {seq: 4, filename: KR5c0388_004.yaml, hash: 'sha256:fc919e44515523020d55ae2eddd250f63c5420e17c7ca7b1b6f5a8e820d1e999'}
+  - {seq: 1, filename: KR5c0388_001.yaml, hash: 'sha256:0bd2558e346cd3eef694c8317a3a9bc0d03d7338d44873f47138ff0630698035'}
+  - {seq: 2, filename: KR5c0388_002.yaml, hash: 'sha256:2b8db9ef8ff77f58f1a73c8ca05c7c72e6fe86e225283fbe76360d45822c4268'}
+  - {seq: 3, filename: KR5c0388_003.yaml, hash: 'sha256:879324a3be27fa8c0938f97de74065d108bde13a96bc7132bb1a268493b3682f'}
+  - {seq: 4, filename: KR5c0388_004.yaml, hash: 'sha256:739379311880568957cb2413f681fa3ceaa0a81d850d338bc0692d7e5afc6e7c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5c0388_001.markers.yaml, hash: 'sha256:1cc7086a629b1e8a1d016fd0f200a417e99003078bfa07e6ba83714e6feed880'}
-  - {seq: 2, role: markers, filename: assets/KR5c0388_002.markers.yaml, hash: 'sha256:92a234527b2ec726543362e2d336e9090a80020dbd739e7372b19135eb8f43e3'}
-  - {seq: 3, role: markers, filename: assets/KR5c0388_003.markers.yaml, hash: 'sha256:76ef6081c96ddc0b207b81d5ccdf238731de019b32349361e6e77bd59ec5673e'}
-  - {seq: 4, role: markers, filename: assets/KR5c0388_004.markers.yaml, hash: 'sha256:15b7ad1565b2d81effba8e2330e7751e89d9b3c4837d4d1b5dc2261f82a9ba7d'}
+  - {seq: 1, role: markers, filename: assets/KR5c0388_001.markers.yaml, hash: 'sha256:3fad1b1ae73d1359b2a1f485735bcf8119509c67d9056cf9167ba05e36f92092'}
+  - {seq: 2, role: markers, filename: assets/KR5c0388_002.markers.yaml, hash: 'sha256:dd72941b146e9f4eaa6d081c56e52955860688753d8a221d25e9519c714dd39f'}
+  - {seq: 3, role: markers, filename: assets/KR5c0388_003.markers.yaml, hash: 'sha256:93fd814d7de0be92a9f96803d2ae5a4ad029c8dde7d0f3b3d625630108fda50f'}
+  - {seq: 4, role: markers, filename: assets/KR5c0388_004.markers.yaml, hash: 'sha256:883d8e164ff9ee030c83cf86d4d6c13f7522a0baa7e7f6384eff38fdef391352'}
 table_of_contents:
 - ref:
     seq: 1
@@ -68,4 +68,7 @@ table_of_contents:
   label: 馬王堆漢墓帛書老子甲本卷後古佚書德聖
   type: section
   level: 1
-hash: sha256:73b677e2b476ce9b813ca139d4585cc4e9c263d3c42aeda63df806a90978bf27
+hash: sha256:4e120a4cc2dab14ffbc36700f94f5524d4096d79ac4918eee5f22837f7e4eb87
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
